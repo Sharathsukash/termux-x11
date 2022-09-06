@@ -26,7 +26,7 @@ then you can start your desired graphical application by doing:
 ```
 ~ $ export XDG_RUNTIME_DIR=${TMPDIR}
 ~ $ termux-x11 :1 &
-~ $ env DISPLAY=:1 xfce4-session
+~ $ env DISPLAY=:1 x
 ```
 You may replace `xfce4-session` if you use other than Xfce
 
